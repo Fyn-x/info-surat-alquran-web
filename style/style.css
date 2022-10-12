@@ -4,3 +4,19 @@ body{
 #muhammad, #allah {
   width: 10%;
 }
+
+@media screen and (max-width: 576px){
+  .title h1{
+    font-size: 1.8rem;
+  }
+
+  #muhammad, #allah {
+    width: 13%;
+  }
+}
+
+@media screen and (min-width: 576px){
+  #muhammad, #allah {
+    width: 13%;
+  }
+}
